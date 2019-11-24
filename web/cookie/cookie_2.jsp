@@ -22,13 +22,11 @@
 				break;
 			}
 		}
-		
 	}
 	if(cookie==null){
 		out.println("no page");
 	}else{
 		out.print(cookie.getValue());
-		
 	}
 	%>
 </body>
